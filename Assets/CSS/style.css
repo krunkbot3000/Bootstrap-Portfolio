@@ -1,0 +1,239 @@
+/* TOP */
+
+html {
+  height: 100%;
+}
+
+.my-name {
+  position: absolute;
+  top: 0;
+  left: 12%;
+  color: #ffffff;
+  background-color: #adb4b4;
+  padding: 20px;
+  margin: 0;
+  float: left; 
+}
+
+/* BODY */
+
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  /*background-image: url("../Bootstrap-Portfolio/Assets/Images/background.png") ;*/
+}
+
+.contents {
+  margin: 0 auto;
+}
+
+.bio {
+  background: #d3d3d3;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #25A2B8;
+  border-radius: 15px;
+  margin-bottom: 85px;
+} 
+
+.biography {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 2em;
+}
+
+.about-title {
+  color: #25A2B8;
+  text-align: left;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#bio-image {
+  float: left;
+  padding-right: 15px;
+}
+
+.navbar-brand { 
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-size: 24px !important;
+}
+
+.navbar {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+  font-size: 16px !important;
+}
+
+/* PORTFOLIO LINK */
+.portfolio-title {
+  color: #25A2B8;
+  text-align: left;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.portfolio {
+  background: #d3d3d3;
+  width: 918px;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #25A2B8;
+  border-radius: 15px;
+  margin-bottom: 85px;
+}
+
+
+.hangman {
+  margin-top: 20px;
+ 
+}
+
+.rpg {
+  margin-top: 20px;
+
+}
+
+.trivia {
+  margin-top: 20px;  
+}
+
+.widget {
+  margin-top: 20px; 
+}
+
+.rps {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff ;
+}
+
+a:hover {
+  color: #D3D3D3 !important;
+}
+
+.caption-text {
+  padding: 10px;
+}
+
+.caption-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+
+.hangman-caption {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 300px;
+  margin-right: 20px; 
+}
+
+
+.rpg-caption {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 300px;
+}
+
+
+
+.trivia-caption {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 300px;
+}
+
+
+
+.widget-caption {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 300px;
+}
+
+
+
+.rock-caption {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  background-color: #4aaaa5;
+  color: #ffffff;
+  width: 300px;
+  margin-left:0 auto; 
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact-title {
+  color: #25A2B8;
+  text-align: left;
+  padding-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contact {
+  background: #d3d3d3;
+  margin: 0 auto;
+  position: absolute;
+  top: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #25A2B8;
+  border-radius: 15px;
+  margin-bottom: 85px;
+}
+
+
+
+#submit-button:hover {
+    background-image: linear-gradient(to right, #666666, #4aaaa5);
+}
+
+/* FOOTER */
+
+.copyright{
+  text-align: center;
+  clear: both;
+  padding: 20px;
+  background-color: #221F1F;
+  color: #d3d3d3;
+  border-top: 5px solid #25A2B8;
+  font-size: 10px;
+  display: block;
+  box-sizing: border-box;  
+}
+
+#all-footer {
+  bottom: 0;
+  position: fixed;
+  left: 0;
+  width: 100%;
+}
